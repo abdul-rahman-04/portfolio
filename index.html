@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Python Software Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <nav>
+    <div class="nav-logo">Mr.<span> Abdul Rahman</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Hire Me</a>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-inner">
+
+      <div class="hero-left">
+        <p class="hero-eyebrow">&#9642; Available for opportunities</p>
+        <h1 class="hero-name">Abdul<em> Rahman</em></h1>
+        <p class="hero-title"><span class="cursor"></span></p>
+        <p class="hero-desc">
+          Electrical & Electronics Engineer turned Software Developer, driven by a passion for building real-world solutions through code. Combining an engineer's problem-solving mindset with Python to create clean, efficient applications.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <a href="resume.pdf" class="btn-outline" download>Download Resume</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <div class="stat-num">3+</div>
+            <div class="stat-label">Projects Built</div>
+          </div>
+          <div>
+            <div class="stat-num">5+</div>
+            <div class="stat-label">Technologies</div>
+          </div>
+          <div>
+            <div class="stat-num">1</div>
+            <div class="stat-label">Degree (EEE)</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-photo-wrapper">
+          <div class="hero-photo-ring"></div>
+          <div class="hero-photo-ring hero-photo-ring--2"></div>
+          <div class="hero-photo-frame">
+            <img src="your-photo.jpg" alt="Your Name" class="hero-photo" id="heroPhoto" />
+            <!-- Shown only if photo fails to load -->
+            <div class="hero-photo-placeholder" id="heroPlaceholder">
+              <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+                <circle cx="40" cy="30" r="16" fill="rgba(37,99,235,0.3)" stroke="rgba(59,130,246,0.6)" stroke-width="1.5"/>
+                <path d="M10 70 Q10 50 40 50 Q70 50 70 70" fill="rgba(37,99,235,0.2)" stroke="rgba(59,130,246,0.5)" stroke-width="1.5"/>
+              </svg>
+              <p>Add your photo</p>
+              <span>Replace src="your-photo.jpg"</span>
+            </div>
+          </div>
+          <div class="hero-photo-badge">
+            <span class="badge-dot"></span> Open to Work
+          </div>
+          <div class="hero-photo-tag hero-photo-tag--py">Python</div>
+          <div class="hero-photo-tag hero-photo-tag--sql">SQL</div>
+          <div class="hero-photo-tag hero-photo-tag--js">Embedded C</div>
+          <div class="hero-photo-tag hero-photo-tag--html">HTML/CSS</div>
+          
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about">
+    <div class="section-header reveal">
+      <div class="section-tag">01 — About</div>
+      <h2 class="section-title">Who I Am</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>
+          I'm a <strong>Electrical & Electronics graduate</strong> with a deep passion for Python and software engineering.
+          I enjoy writing well-structured, readable code and building systems that are both functional and elegant.
+        </p>
+        <p>
+          I've worked on projects involving <strong>web development</strong>, <strong>python</strong>,
+          and <strong>Data management</strong>. I'm eager to join a team where I can grow, contribute, and learn
+          from experienced engineers in a real-world environment.
+        </p>
+        <p>
+          When I'm not coding, I'm sharpening my problem-solving skills on LeetCode, reading tech blogs,
+          or experimenting with new emerging Technologies.
+        </p>
+      </div>
+      <div class="about-facts reveal">
+        <div class="fact-card">
+          <div class="fact-icon">&#127891;</div>
+          <div class="fact-title">Degree</div>
+          <div class="fact-value">B.E. EEE</div>
+        </div>
+        <div class="fact-card">
+          <div class="fact-icon">&#128205;</div>
+          <div class="fact-title">Location</div>
+          <div class="fact-value">Coimbatore, TN</div>
+        </div>
+        <div class="fact-card">
+          <div class="fact-icon">&#128640;</div>
+          <div class="fact-title">Status</div>
+          <div class="fact-value">Open to Work</div>
+        </div>
+        <div class="fact-card">
+          <div class="fact-icon">&#128172;</div>
+          <div class="fact-title">Languages</div>
+          <div class="fact-value">English, Tamil, Hindi</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section id="skills">
+    <div class="section-header reveal">
+      <div class="section-tag">02 — Skills</div>
+      <h2 class="section-title">Technical Expertise</h2>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-category reveal">
+        <div class="skill-cat-title">Languages</div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">Python</span><span class="skill-pct">85%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">SQL</span><span class="skill-pct">80%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">Embedded C</span><span class="skill-pct">60%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="60"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">HTML / CSS</span><span class="skill-pct">70%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="70"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-category reveal">
+        <div class="skill-cat-title">Frameworks & Libraries</div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">Django / Flask</span><span class="skill-pct">78%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="78"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">Pandas / NumPy</span><span class="skill-pct">72%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="72"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">FastAPI</span><span class="skill-pct">60%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="60"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">Matplotlib</span><span class="skill-pct">65%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="65"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-category reveal">
+        <div class="skill-cat-title">Tools & Platforms</div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">Git / GitHub</span><span class="skill-pct">80%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">PostgreSQL / MySQL</span><span class="skill-pct">72%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="72"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">Docker</span><span class="skill-pct">50%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="50"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">Linux / CLI</span><span class="skill-pct">68%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="68"></div></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section id="projects">
+    <div class="section-header reveal">
+      <div class="section-tag">03 — Projects</div>
+      <h2 class="section-title">Things I've Built</h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-header">
+          <div class="project-icon">&#128202;</div>
+          <div class="project-links">
+            <a href="#" class="project-link" title="GitHub">GH</a>
+            <a href="#" class="project-link" title="Live Demo">&#8599;</a>
+          </div>
+        </div>
+        <h3 class="project-title">Student Result Analyser</h3>
+        <p class="project-desc">
+          A Django-based web app that parses uploaded CSV files of exam results,
+          generates visual performance dashboards, and exports PDF reports.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Django</span>
+          <span class="tag">Pandas</span>
+          <span class="tag">Chart.js</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-header">
+          <div class="project-icon">&#129302;</div>
+          <div class="project-links">
+            <a href="#" class="project-link" title="GitHub">GH</a>
+          </div>
+        </div>
+        <h3 class="project-title">CLI Task Automation Bot</h3>
+        <p class="project-desc">
+          A Python CLI tool that automates repetitive file management tasks — renaming, sorting,
+          deduplicating, and archiving directories. Reduced a 20-minute job to 3 seconds.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">argparse</span>
+          <span class="tag">OS module</span>
+          <span class="tag">Shell</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-header">
+          <div class="project-icon">&#127760;</div>
+          <div class="project-links">
+            <a href="#" class="project-link" title="GitHub">GH</a>
+            <a href="#" class="project-link" title="Live Demo">&#8599;</a>
+          </div>
+        </div>
+        <h3 class="project-title">REST API — Blog Platform</h3>
+        <p class="project-desc">
+          A production-style RESTful API built with FastAPI and PostgreSQL featuring JWT auth,
+          user roles, CRUD for blog posts, and auto-generated Swagger docs.
+        </p>
+        <div class="project-tags">
+          <span class="tag">FastAPI</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">JWT</span>
+          <span class="tag">Pydantic</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-header">
+          <div class="project-icon">&#128269;</div>
+          <div class="project-links">
+            <a href="#" class="project-link" title="GitHub">GH</a>
+          </div>
+        </div>
+        <h3 class="project-title">Web Scraper & Price Tracker</h3>
+        <p class="project-desc">
+          A Selenium + BeautifulSoup scraper that tracks e-commerce prices over time,
+          stores data in SQLite, and sends email alerts when prices drop.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Selenium</span>
+          <span class="tag">BeautifulSoup</span>
+          <span class="tag">SQLite</span>
+        </div>
+      </div>
+
+  </section>
+
+  <!-- ── EDUCATION ── -->
+  <section id="education">
+    <div class="section-header reveal">
+      <div class="section-tag">04 — Education</div>
+      <h2 class="section-title">Academic Background</h2>
+    </div>
+    <div class="timeline">
+
+      <div class="timeline-item reveal">
+        <div class="timeline-year">2022 — 2026</div>
+        <div class="timeline-title">Bachelor of Engineering — EEE</div>
+        <div class="timeline-org">Kumaraguru College of Technology, Coimbatore</div>
+        <div class="timeline-desc">
+          CGPA: 8.0 / 10 &nbsp;·&nbsp;
+          Relevant coursework: Data Structures, Python, Matlab, SQL, Embedded Systems, IoT (Internet of Things)
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-year">2021 — 2022</div>
+        <div class="timeline-title">Higher Secondary — Computer Science</div>
+        <div class="timeline-org">Nava Bharath National School, Coimbatore</div>
+        <div class="timeline-desc">
+          Percentage: 92% &nbsp;·&nbsp; Scored 93 in Computer Science (Python & SQL), 95 in Mathematics
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-year">2019 — 2020 </div>
+        <div class="timeline-title">Secondary School</div>
+        <div class="timeline-org">Kathir Vidyaa Manthir School, Coimbatore</div>
+        <div class="timeline-desc">
+          Percentage: 87% &nbsp;·&nbsp; Actively participated in school events and developed teamwork and communication skills. 
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact">
+    <div class="section-header reveal">
+      <div class="section-tag">05 — Contact</div>
+      <h2 class="section-title">Let's Connect</h2>
+      <p>Available for freelance opportunities.</p>
+    </div>
+    <div class="contact-grid">
+
+      <div class="reveal">
+        <p class="contact-desc">
+          I'm actively looking for my first software engineering role. If you have an opportunity,
+          a project to collaborate on, or just want to say hello — my inbox is open.
+        </p>
+        <div class="contact-links">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=abdulrahmany0101@gmail.com" target="_blank" class="contact-link-item">
+          <div class="contact-link-icon">&#9993;</div>
+            E-mail
+          </a>
+          <a href="https://www.linkedin.com/in/abdul-rahman-ee04/" class="contact-link-item" target="_blank">
+            <div class="contact-link-icon">in</div>
+            LinkedIn Profile
+          </a>
+          <a href="https://github.com/abdul-rahman-04" class="contact-link-item" target="_blank">
+            <div class="contact-link-icon">&#128025;</div>
+            GitHub Account
+          </a>
+          <a href="tel:+918778500847" class="contact-link-item">
+            <div class="contact-link-icon">&#128222;</div>
+            Call Now
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <label class="form-label">Name</label>
+          <input type="text" class="form-input" placeholder="Recruiter Name" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label">E-mail</label>
+          <input type="email" class="form-input" placeholder="recruiter@company.com" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Message</label>
+          <textarea class="form-textarea" placeholder="Hi, I'd like to discuss an opportunity..." required></textarea>
+        </div>
+        <button type="submit" class="btn-primary" style="width:100%; font-family: var(--mono);">
+          Send Message &#8594;
+        </button>
+      </form>
+
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="footer-copy">&#169; 2026 Abdul Rahman &nbsp;·&nbsp; Built with HTML, CSS & JS</div>
+    <a href="#hero" class="footer-back">Back to top &#8593;</a>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
