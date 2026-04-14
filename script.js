@@ -79,15 +79,8 @@ function type() {
 
 setTimeout(type, 1400);
 
-// ── CONTACT FORM ──
 function handleSubmit(e) {
-  e.preventDefault();
-  const btn = e.target.querySelector('button[type="submit"]');
-  btn.textContent = 'Message Sent ✓';
-  btn.style.background = '#059669';
-  setTimeout(() => {
-    btn.textContent = 'Send Message →';
-    btn.style.background = '';
-    e.target.reset();
-  }, 3000);
+  const btn = e.target.querySelector('button');
+  btn.textContent = 'Sending...';
 }
+onsubmit="handleSubmit(event)"

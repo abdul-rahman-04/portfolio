@@ -347,7 +347,7 @@
           a project to collaborate on, or just want to say hello — my inbox is open.
         </p>
         <div class="contact-links">
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=abdulrahmany0101@gmail.com" target="_blank" class="contact-link-item">
+          <a href="mailto:abdulrahmany0101@gmail.com" class="contact-link-item">
           <div class="contact-link-icon">&#9993;</div>
             E-mail
           </a>
@@ -366,23 +366,30 @@
         </div>
       </div>
 
-      <form class="contact-form reveal" onsubmit="handleSubmit(event)">
-        <div class="form-group">
-          <label class="form-label">Name</label>
-          <input type="text" class="form-input" placeholder="Recruiter Name" required />
-        </div>
-        <div class="form-group">
-          <label class="form-label">E-mail</label>
-          <input type="email" class="form-input" placeholder="recruiter@company.com" required />
-        </div>
-        <div class="form-group">
-          <label class="form-label">Message</label>
-          <textarea class="form-textarea" placeholder="Hi, I'd like to discuss an opportunity..." required></textarea>
-        </div>
-        <button type="submit" class="btn-primary" style="width:100%; font-family: var(--mono);">
-          Send Message &#8594;
-        </button>
-      </form>
+      <form class="contact-form reveal" method="POST" action="https://api.web3forms.com/submit">
+  
+  <!-- Access Key -->
+  <input type="hidden" name="access_key" value="247e72e6-af8d-4d7b-b788-46897d659a58">
+
+  <div class="form-group">
+    <label class="form-label">Name</label>
+    <input type="text" name="name" class="form-input" placeholder="Recruiter Name" required />
+  </div>
+
+  <div class="form-group">
+    <label class="form-label">E-mail</label>
+    <input type="email" name="email" class="form-input" placeholder="recruiter@company.com" required />
+  </div>
+
+  <div class="form-group">
+    <label class="form-label">Message</label>
+    <textarea name="message" class="form-textarea" placeholder="Hi, I'd like to discuss an opportunity..." required></textarea>
+  </div>
+
+  <button type="submit" class="btn-primary" style="width:100%;">
+    Send Message →
+  </button>
+</form>
 
     </div>
   </section>
